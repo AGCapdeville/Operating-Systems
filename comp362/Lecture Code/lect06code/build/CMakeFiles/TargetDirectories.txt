@@ -1,0 +1,8 @@
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/rebuild_cache.dir
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/edit_cache.dir
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/condvar.dir
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/readwrite.dir
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/mutex_spinlock.dir
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/mutex.dir
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/semaphore.dir
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/buffer.dir

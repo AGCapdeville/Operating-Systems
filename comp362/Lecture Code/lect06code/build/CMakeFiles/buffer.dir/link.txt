@@ -1,0 +1,1 @@
+/usr/bin/clang  -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/buffer.dir/buffer.c.o  -o bin/buffer 

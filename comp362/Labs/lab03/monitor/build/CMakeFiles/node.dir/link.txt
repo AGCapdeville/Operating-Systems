@@ -1,0 +1,1 @@
+/usr/bin/gcc-8  -Wall -Wextra -Wpedantic -m64 -D_FILE_OFFSET_BITS=64 -g -m64 -g -O0 -D_DEBUG  -rdynamic CMakeFiles/node.dir/node.c.o  -o node -lrt 

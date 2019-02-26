@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build",
+  "command": "/usr/bin/clang    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/condvar.dir/condvar.c.o   -c \"/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/condvar.c\"",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/condvar.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build",
+  "command": "/usr/bin/clang    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/readwrite.dir/readwrite.c.o   -c \"/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/readwrite.c\"",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/readwrite.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build",
+  "command": "/usr/bin/clang    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/mutex_spinlock.dir/mutex_spinlock.c.o   -c \"/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/mutex_spinlock.c\"",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/mutex_spinlock.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build",
+  "command": "/usr/bin/clang    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/mutex.dir/mutex.c.o   -c \"/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/mutex.c\"",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/mutex.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build",
+  "command": "/usr/bin/clang    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/semaphore.dir/semaphore.c.o   -c \"/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/semaphore.c\"",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/semaphore.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build",
+  "command": "/usr/bin/clang    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/buffer.dir/buffer.c.o   -c \"/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/buffer.c\"",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/buffer.c"
+}
+]

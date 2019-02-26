@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/readwrite.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+pthread.h
+-
+errno.h
+-
+

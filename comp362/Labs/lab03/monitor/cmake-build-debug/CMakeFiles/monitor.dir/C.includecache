@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lighthouse/Desktop/comp362/lab03/monitor/message.h
+sys/types.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+unistd.h
+-
+stdbool.h
+/home/lighthouse/Desktop/comp362/lab03/monitor/stdbool.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+mqueue.h
+-
+
+/home/lighthouse/Desktop/comp362/lab03/monitor/monitor.c
+message.h
+/home/lighthouse/Desktop/comp362/lab03/monitor/message.h
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/mutex_spinlock.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+errno.h
+-
+pthread.h
+-
+stdbool.h
+-
+

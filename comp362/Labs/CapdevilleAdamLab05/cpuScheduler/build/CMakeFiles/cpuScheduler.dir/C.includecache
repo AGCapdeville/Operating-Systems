@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/CapdevilleAdamLab05/cpuScheduler/cpuScheduler.c
+cpuScheduler.h
+/Users/adamcapdeville/Documents/CSUCI/comp362/CapdevilleAdamLab05/cpuScheduler/cpuScheduler.h
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/CapdevilleAdamLab05/cpuScheduler/cpuScheduler.h
+sys/types.h
+-
+processQueue.h
+/Users/adamcapdeville/Documents/CSUCI/comp362/CapdevilleAdamLab05/cpuScheduler/processQueue.h
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/CapdevilleAdamLab05/cpuScheduler/processQueue.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+

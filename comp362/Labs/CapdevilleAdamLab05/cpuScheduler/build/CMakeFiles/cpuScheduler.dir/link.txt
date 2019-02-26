@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -g -Wall -Wextra -Wpedantic -g -O0 -D_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cpuScheduler.dir/cpuScheduler.c.o CMakeFiles/cpuScheduler.dir/processQueue.c.o  -o bin/cpuScheduler 

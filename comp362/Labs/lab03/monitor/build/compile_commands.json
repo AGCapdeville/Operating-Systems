@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/lighthouse/Desktop/comp362/lab03/monitor/build",
+  "command": "/usr/bin/gcc-8    -Wall -Wextra -Wpedantic -m64 -D_FILE_OFFSET_BITS=64 -g -m64 -g -O0 -D_DEBUG   -std=gnu11 -o CMakeFiles/monitor.dir/monitor.c.o   -c /home/lighthouse/Desktop/comp362/lab03/monitor/monitor.c",
+  "file": "/home/lighthouse/Desktop/comp362/lab03/monitor/monitor.c"
+},
+{
+  "directory": "/home/lighthouse/Desktop/comp362/lab03/monitor/build",
+  "command": "/usr/bin/gcc-8    -Wall -Wextra -Wpedantic -m64 -D_FILE_OFFSET_BITS=64 -g -m64 -g -O0 -D_DEBUG   -std=gnu11 -o CMakeFiles/node.dir/node.c.o   -c /home/lighthouse/Desktop/comp362/lab03/monitor/node.c",
+  "file": "/home/lighthouse/Desktop/comp362/lab03/monitor/node.c"
+}
+]
