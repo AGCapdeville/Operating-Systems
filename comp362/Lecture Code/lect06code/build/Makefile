@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named osx_spinlock
+
+# Build rule for target.
+osx_spinlock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 osx_spinlock
+.PHONY : osx_spinlock
+
+# fast build rule for target.
+osx_spinlock/fast:
+	$(MAKE) -f CMakeFiles/osx_spinlock.dir/build.make CMakeFiles/osx_spinlock.dir/build
+.PHONY : osx_spinlock/fast
+
+#=============================================================================
 # Target rules for targets named condvar
 
 # Build rule for target.
@@ -296,6 +309,33 @@ mutex_spinlock.c.s:
 	$(MAKE) -f CMakeFiles/mutex_spinlock.dir/build.make CMakeFiles/mutex_spinlock.dir/mutex_spinlock.c.s
 .PHONY : mutex_spinlock.c.s
 
+osx_spinlock.o: osx_spinlock.c.o
+
+.PHONY : osx_spinlock.o
+
+# target to build an object file
+osx_spinlock.c.o:
+	$(MAKE) -f CMakeFiles/osx_spinlock.dir/build.make CMakeFiles/osx_spinlock.dir/osx_spinlock.c.o
+.PHONY : osx_spinlock.c.o
+
+osx_spinlock.i: osx_spinlock.c.i
+
+.PHONY : osx_spinlock.i
+
+# target to preprocess a source file
+osx_spinlock.c.i:
+	$(MAKE) -f CMakeFiles/osx_spinlock.dir/build.make CMakeFiles/osx_spinlock.dir/osx_spinlock.c.i
+.PHONY : osx_spinlock.c.i
+
+osx_spinlock.s: osx_spinlock.c.s
+
+.PHONY : osx_spinlock.s
+
+# target to generate assembly for a file
+osx_spinlock.c.s:
+	$(MAKE) -f CMakeFiles/osx_spinlock.dir/build.make CMakeFiles/osx_spinlock.dir/osx_spinlock.c.s
+.PHONY : osx_spinlock.c.s
+
 readwrite.o: readwrite.c.o
 
 .PHONY : readwrite.o
@@ -357,6 +397,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... osx_spinlock"
 	@echo "... edit_cache"
 	@echo "... condvar"
 	@echo "... readwrite"
@@ -376,6 +417,9 @@ help:
 	@echo "... mutex_spinlock.o"
 	@echo "... mutex_spinlock.i"
 	@echo "... mutex_spinlock.s"
+	@echo "... osx_spinlock.o"
+	@echo "... osx_spinlock.i"
+	@echo "... osx_spinlock.s"
 	@echo "... readwrite.o"
 	@echo "... readwrite.i"
 	@echo "... readwrite.s"

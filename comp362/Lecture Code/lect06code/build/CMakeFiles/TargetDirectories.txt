@@ -1,4 +1,5 @@
 /Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/rebuild_cache.dir
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/osx_spinlock.dir
 /Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/edit_cache.dir
 /Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/condvar.dir
 /Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build/CMakeFiles/readwrite.dir

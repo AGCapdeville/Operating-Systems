@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/osx_spinlock.c
+libkern/OSAtomic.h
+-
+

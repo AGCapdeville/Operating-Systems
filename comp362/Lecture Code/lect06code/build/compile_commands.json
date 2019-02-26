@@ -1,6 +1,11 @@
 [
 {
   "directory": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build",
+  "command": "/usr/bin/clang    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/osx_spinlock.dir/osx_spinlock.c.o   -c \"/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/osx_spinlock.c\"",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/osx_spinlock.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/build",
   "command": "/usr/bin/clang    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/condvar.dir/condvar.c.o   -c \"/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/condvar.c\"",
   "file": "/Users/adamcapdeville/Documents/CSUCI/comp362/Lecture Code/lect06code/condvar.c"
 },
