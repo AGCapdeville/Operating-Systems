@@ -164,7 +164,7 @@ void putdown (int i)
 
 void test (int i)
 { 
-    if ( (state[(i+1)%numOfSeats] != EATING) 
+    if ( (state[(i+1) % numOfSeats] != EATING) 
         && (state[i] == HUNGRY) 
         && (state[(i-1) % numOfSeats] != EATING) )
     { 
