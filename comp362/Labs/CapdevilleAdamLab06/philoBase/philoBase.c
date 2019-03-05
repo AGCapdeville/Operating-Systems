@@ -6,14 +6,6 @@
 
 #include "philoBase.h"
 
-pthread_mutex_t monitor_mutex;
-
-int numOfSeats, numOfTurns;
-enum { THINKING, HUNGRY, EATING}; 
-int* state;
-
-pthread_cond_t* self;
-
 int main(int argc, char **argv)
 {
     if (argc < 3)
@@ -36,26 +28,25 @@ int main(int argc, char **argv)
     pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
 
     printf("Start a dinner for %d diners\n", numOfSeats);
+    pthread_t * philosopher_tid = calloc(numOfSeats, sizeof(pthread_t));
 
-    pthread_t philosopher_tid[numOfSeats];
 
-
-    long i;
-
-    for (i = 0; i < numOfSeats; i++)
+    long i = 0;
+    for ( ; i < numOfSeats; i++)
         pthread_create(&philosopher_tid[i], NULL, philosopher, (void *) i);
-
     for (i = 0; i < numOfSeats; i++)
         pthread_join(philosopher_tid[i], NULL);
 
+
     pthread_mutex_destroy(&monitor_mutex);
-
     printf("Dinner is no more.\n");
-
+    free(philosopher_tid);
+    free(state);
+    free(self);
     return 0;
 }
 
-void *philosopher(void *num)
+void * philosopher(void *num)
 {
     int id = (long) num;
 
@@ -99,80 +90,60 @@ void *philosopher(void *num)
     }
     */
 
-    //for (i = 0; i < numOfSeats; i++)
-    //    pthread_mutex_destroy(i);
-
     printf(">>>>>> Philosopher no. %d finished meal. <<<<<<\n\n", id);
-
     pthread_exit(NULL);
 }
 
 void monitor(int id, int turn)
 {
-    pthread_cond_wait( &self[id] , &monitor_mutex);
+    state[id] = HUNGRY;
     printf("Philosopher no. %d gets hungry for the %d time!\n", id, (turn + 1));
-
+    printf("Philosopher no. %d tries to grab chopsticks\n", id);
     pickup(id);
 
     // EAT
     usleep(DELAY); 
 
     putdown(id); 
-    
-        // we signal in putdown:
-    //signal(monitor_mutex);
-    //pthread_cond_signal( (&self)[id] );
-
     printf("Philosopher no. %d finished turn %d\n", id, turn + 1);
 }
 
 
-void pickup (int i)
+void pickup (int id)
 { 
-
-    state[i] = HUNGRY; 
-
-    printf("Philosopher no. %d tries to grab chopsticks\n", i);
-    test(i);
-     
-    if (state[i] != EATING){ // If not eating wait:
-        printf("Philosopher no. %d is waiting\n", i);
-        pthread_cond_wait( &self[i] , &monitor_mutex); // waiting for signal
-        //pickup(i);  // lets try picking up again.
-        
-        pthread_mutex_lock( &monitor_mutex );
-        state[i] = EATING; // Now start eating
-
-    }else
-    {   // if eating:
-        pthread_mutex_lock( &monitor_mutex );
-        printf("Philosopher no. %d is eating\n", i);
+    while( state[id] != EATING ){
+        lockMutex(id);
+        // If you can eat:
+        if ( (state[(id+1) % numOfSeats] != EATING) && (state[ (id+(numOfSeats-1)) % numOfSeats] != EATING) ){
+            printf("Philosopher no. %d is eating\n", id);
+            state[id] = EATING;
+        }
+        unlockMutex(id);
     }
-    
+
 } 
 
-void putdown (int i)
-{ 
+void putdown (int id)
+{
+    lockMutex(id);
+    state[id] = THINKING;
+    printf("Philosopher no. %d has returned their chopsticks\n", id);
+    printf("Philosopher no. %d stopped eating\n", id); 
+    unlockMutex(id);
+}
+
+void lockMutex(int id){
+    //if locked
+    while(!pthread_mutex_lock(&monitor_mutex)){
+        pthread_cond_wait(&self[id], &monitor_mutex);         // wait to eat
+    }
+}
+
+void unlockMutex(int id){
     pthread_mutex_unlock(&monitor_mutex);
-    state[i] = THINKING;
-    printf("Philosopher no. %d has returned their chopsticks\n", i);
-    printf("Philosopher no. %d stopped eating\n", i);
-    // test left and right neighbors
-    test((i + 1) % numOfSeats);
-    test((i - 1) % numOfSeats);
-} 
-
-void test (int i)
-{ 
-    if ( (state[(i+1) % numOfSeats] != EATING) 
-        && (state[i] == HUNGRY) 
-        && (state[(i-1) % numOfSeats] != EATING) )
-    { 
-        state[i] = EATING;
-        printf("Philosopher no. %d is eating\n",i);
-        pthread_cond_signal(&self[i]);
-    } 
-} 
+    // Let everyone know they can eat.
+    pthread_cond_signal(&self[id]);
+}
 
 void initialization_state_and_self()
 { 
@@ -181,7 +152,7 @@ void initialization_state_and_self()
 
     for (int i = 0; i < numOfSeats; i++){ 
         state[i] = THINKING;
-        pthread_cond_init(&self[i],NULL);
+        pthread_cond_init(&self[i],NULL);   
     }
 } 
 

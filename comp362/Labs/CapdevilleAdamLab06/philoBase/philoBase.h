@@ -17,8 +17,21 @@ void *philosopher(void *id);
 
 void initialization_state_and_self();
 void monitor(int id, int turn);
-void pickup (int i);
-void putdown (int i);
-void test (int i);
+void pickup (int id);
+void putdown (int id);
+void test (int id);
+
+void unlockMutex(int id);
+void lockMutex(int id);
+
+// GLOBALS :
+int numOfSeats, numOfTurns;
+enum { THINKING, HUNGRY, EATING}; 
+int* state;
+
+pthread_mutex_t monitor_mutex;
+pthread_cond_t* self;
+
+
 
 
