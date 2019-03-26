@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab07/solvency/src/arrays.h
+stdio.h
+-
+stdbool.h
+-
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab07/solvency/src/bank.c
+bank.h
+/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab07/solvency/src/bank.h
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab07/solvency/src/bank.h
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+errno.h
+-
+ctype.h
+-
+pthread.h
+-
+arrays.h
+/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab07/solvency/src/arrays.h
+

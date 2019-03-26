@@ -134,7 +134,7 @@ void putdown (int id)
 
 void lockMutex(int id){
     //if locked
-    while(!pthread_mutex_lock(&monitor_mutex)){
+    while( pthread_mutex_lock(&monitor_mutex)){
         pthread_cond_wait(&self[id], &monitor_mutex);         // wait to eat
     }
 }

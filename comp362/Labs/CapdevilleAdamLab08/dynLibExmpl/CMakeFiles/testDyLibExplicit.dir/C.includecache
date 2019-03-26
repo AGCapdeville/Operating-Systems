@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/dynLibExmpl/testDyLibExplicitMain.c
+stdio.h
+-
+stdlib.h
+-
+dlfcn.h
+-
+

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/inverted",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/inverted.dir/inverted.c.o   -c /Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/inverted/inverted.c",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/inverted/inverted.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/inverted",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/inverted.dir/testInverted.c.o   -c /Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/inverted/testInverted.c",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/inverted/testInverted.c"
+}
+]
