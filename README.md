@@ -1,1 +1,1 @@
-comp362
+CSUCI CLASS : COMP 362 - Operating Systems
