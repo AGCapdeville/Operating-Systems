@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adamcapdeville/Documents/CSUCI/lect10code/fstats.c
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+fcntl.h
+-
+unistd.h
+-
+sys/stat.h
+-
+

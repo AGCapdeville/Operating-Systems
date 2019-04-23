@@ -1,0 +1,130 @@
+Script started on 2019-04-22 20:57:34-07:00
+]0;lighthouse@lighthouse-VirtualBox: ~/Desktop/CapdevilleAdamProject1/simfs/build[01;32mlighthouse@lighthouse-VirtualBox[00m:[01;34m~/Desktop/CapdevilleAdamProject1/simfs/build[00m$ cd bin/
+]0;lighthouse@lighthouse-VirtualBox: ~/Desktop/CapdevilleAdamProject1/simfs/build/bin[01;32mlighthouse@lighthouse-VirtualBox[00m:[01;34m~/Desktop/CapdevilleAdamProject1/simfs/build/bin[00m$ ./simfs 
+MAX unique identifier: 18446744073709551615
+
+
+-- TASK 1 START --
+Creating Simulated File System to simfsFile.dtaSize of SIMFS_CONTEXT_TYPE: 36384
+Size of SIMFS_VOLUME: 557592
+
+ADD "file1" 
+simfsCreateFile: file1
+  Find Current Working Directory: 0
+  Find Name In CWD: 255
+
+	SZE OF CWD: 1
+
+  FETCH FILE INFO: 
+   name: file1,
+   creationTime: 3:57:46 
+
+ADD "file2" 
+simfsCreateFile: file2
+  Find Current Working Directory: 0
+  Find Name In CWD: 255
+
+	SZE OF CWD: 2
+
+ADD "file2" 
+simfsCreateFile: file2
+  Find Current Working Directory: 0
+  Find Name In CWD: 3
+Error: SIMFS_DUPLICATE_ERROR
+
+	SZE OF CWD: 2
+
+  FETCH FILE INFO: 
+   name: file2,
+   creationTime: 3:57:46 
+
+DELETE "file2" 
+
+	SZE OF CWD: 1
+
+ADD "file2" 
+simfsCreateFile: file2
+  Find Current Working Directory: 0
+  Find Name In CWD: 255
+
+	SZE OF CWD: 2
+
+ADD "folder1" 
+simfsCreateFile: folder1
+  Find Current Working Directory: 0
+  Find Name In CWD: 255
+
+	SZE OF CWD: 3
+
+-- TASK 1 DONE --
+
+
+-- TASK 2 START--
+MAX unique identifier: 18446744073709551615
+CREAT & MOUNT FILE SYSTEM
+Creating Simulated File System to simfsFile.dtaSize of SIMFS_CONTEXT_TYPE: 36384
+Size of SIMFS_VOLUME: 557592
+MOUNT: SUCCEDED
+
+ADD "file1" 
+simfsCreateFile: file1
+  Find Current Working Directory: 0
+  Find Name In CWD: 255
+
+	SZE OF CWD: 1
+
+ADD "file2" 
+simfsCreateFile: file2
+  Find Current Working Directory: 0
+  Find Name In CWD: 255
+
+	SZE OF CWD: 2
+
+ADD "file2" 
+simfsCreateFile: file2
+  Find Current Working Directory: 0
+  Find Name In CWD: 3
+Error: SIMFS_DUPLICATE_ERROR
+
+	SZE OF CWD: 2
+
+DELETE "file2" 
+
+	SZE OF CWD: 1
+
+ADD "file2" 
+simfsCreateFile: file2
+  Find Current Working Directory: 0
+  Find Name In CWD: 255
+
+	SZE OF CWD: 2
+
+ADD "folder1" 
+simfsCreateFile: folder1
+  Find Current Working Directory: 0
+  Find Name In CWD: 255
+
+	SZE OF CWD: 3
+	TEST MOUNT -> UNMOUNT -> MOUNT :
+	  UNMOUNT: SUCCEDED
+	  MOUNT: SUCCEDED
+	  UNMOUNT: SUCCEDED
+
+-- TASK 2 DONE--
+user ID = 07, process ID = 08, group ID = 07, umask = 0666
+user ID = 05, process ID = 08, group ID = 09, umask = 0666
+user ID = 02, process ID = 06, group ID = 08, umask = 0666
+user ID = 08, process ID = 04, group ID = 03, umask = 0666
+user ID = 01, process ID = 09, group ID = 01, umask = 0666
+user ID = 08, process ID = 06, group ID = 02, umask = 0666
+user ID = 01, process ID = 02, group ID = 08, umask = 0666
+user ID = 01, process ID = 08, group ID = 06, umask = 0666
+user ID = 10, process ID = 09, group ID = 02, umask = 0666
+user ID = 10, process ID = 10, group ID = 08, umask = 0666
+Found free block at 44
+Found free block at 33
+Found free block at 44
+]0;lighthouse@lighthouse-VirtualBox: ~/Desktop/CapdevilleAdamProject1/simfs/build/bin[01;32mlighthouse@lighthouse-VirtualBox[00m:[01;34m~/Desktop/CapdevilleAdamProject1/simfs/build/bin[00m$ exit
+exit
+
+Script done on 2019-04-22 20:58:03-07:00

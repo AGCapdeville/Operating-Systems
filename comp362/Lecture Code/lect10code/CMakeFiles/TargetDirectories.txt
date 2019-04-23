@@ -1,0 +1,10 @@
+/Users/adamcapdeville/Documents/CSUCI/lect10code/CMakeFiles/edit_cache.dir
+/Users/adamcapdeville/Documents/CSUCI/lect10code/CMakeFiles/fstats.dir
+/Users/adamcapdeville/Documents/CSUCI/lect10code/CMakeFiles/mode_t.dir
+/Users/adamcapdeville/Documents/CSUCI/lect10code/CMakeFiles/fpos.dir
+/Users/adamcapdeville/Documents/CSUCI/lect10code/CMakeFiles/flock_2.dir
+/Users/adamcapdeville/Documents/CSUCI/lect10code/CMakeFiles/rebuild_cache.dir
+/Users/adamcapdeville/Documents/CSUCI/lect10code/CMakeFiles/flock.dir
+/Users/adamcapdeville/Documents/CSUCI/lect10code/CMakeFiles/ftrunk.dir
+/Users/adamcapdeville/Documents/CSUCI/lect10code/CMakeFiles/flock_3.dir
+/Users/adamcapdeville/Documents/CSUCI/lect10code/CMakeFiles/dir.dir

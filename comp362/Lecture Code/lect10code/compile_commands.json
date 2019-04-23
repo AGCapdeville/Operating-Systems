@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/lect10code",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/fstats.dir/fstats.c.o   -c /Users/adamcapdeville/Documents/CSUCI/lect10code/fstats.c",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/lect10code/fstats.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/lect10code",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/mode_t.dir/mode_t.c.o   -c /Users/adamcapdeville/Documents/CSUCI/lect10code/mode_t.c",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/lect10code/mode_t.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/lect10code",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/fpos.dir/fpos.c.o   -c /Users/adamcapdeville/Documents/CSUCI/lect10code/fpos.c",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/lect10code/fpos.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/lect10code",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/flock_2.dir/flock_2.c.o   -c /Users/adamcapdeville/Documents/CSUCI/lect10code/flock_2.c",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/lect10code/flock_2.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/lect10code",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/flock.dir/flock.c.o   -c /Users/adamcapdeville/Documents/CSUCI/lect10code/flock.c",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/lect10code/flock.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/lect10code",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/ftrunk.dir/ftrunk.c.o   -c /Users/adamcapdeville/Documents/CSUCI/lect10code/ftrunk.c",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/lect10code/ftrunk.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/lect10code",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/flock_3.dir/flock_3.c.o   -c /Users/adamcapdeville/Documents/CSUCI/lect10code/flock_3.c",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/lect10code/flock_3.c"
+},
+{
+  "directory": "/Users/adamcapdeville/Documents/CSUCI/lect10code",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=gnu11 -o CMakeFiles/dir.dir/dir.c.o   -c /Users/adamcapdeville/Documents/CSUCI/lect10code/dir.c",
+  "file": "/Users/adamcapdeville/Documents/CSUCI/lect10code/dir.c"
+}
+]
