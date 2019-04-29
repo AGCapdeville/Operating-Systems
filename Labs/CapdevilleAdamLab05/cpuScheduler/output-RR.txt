@@ -1,0 +1,152 @@
+
+ALGORITHM: RR  3
+
+PROCESSES:
+
+Name    	Entry	Burst
+P1      	  0   	 15   
+P2      	  2   	  6   
+P3      	  5   	  2   
+P4      	  6   	  3   
+P5      	  7   	  7   
+
+SIMULATION:
+
+T0:
+CPU: P1(15)
+QUEUE: <empty>
+
+T1:
+CPU: P1(14)
+QUEUE: <empty>
+
+T2:
+CPU: P1(13)
+QUEUE: P2(6) 
+
+T3:
+CPU: P2(6)
+QUEUE: P1(12) 
+
+T4:
+CPU: P2(5)
+QUEUE: P1(12) 
+
+T5:
+CPU: P2(4)
+QUEUE: P1(12) P3(2) 
+
+T6:
+CPU: P1(12)
+QUEUE: P3(2) P4(3) P2(3) 
+
+T7:
+CPU: P1(11)
+QUEUE: P3(2) P4(3) P2(3) P5(7) 
+
+T8:
+CPU: P1(10)
+QUEUE: P3(2) P4(3) P2(3) P5(7) 
+
+T9:
+CPU: P3(2)
+QUEUE: P4(3) P2(3) P5(7) P1(9) 
+
+T10:
+CPU: P3(1)
+QUEUE: P4(3) P2(3) P5(7) P1(9) 
+
+T11:
+CPU: P4(3)
+QUEUE: P2(3) P5(7) P1(9) 
+
+T12:
+CPU: P4(2)
+QUEUE: P2(3) P5(7) P1(9) 
+
+T13:
+CPU: P4(1)
+QUEUE: P2(3) P5(7) P1(9) 
+
+T14:
+CPU: P2(3)
+QUEUE: P5(7) P1(9) 
+
+T15:
+CPU: P2(2)
+QUEUE: P5(7) P1(9) 
+
+T16:
+CPU: P2(1)
+QUEUE: P5(7) P1(9) 
+
+T17:
+CPU: P5(7)
+QUEUE: P1(9) 
+
+T18:
+CPU: P5(6)
+QUEUE: P1(9) 
+
+T19:
+CPU: P5(5)
+QUEUE: P1(9) 
+
+T20:
+CPU: P1(9)
+QUEUE: P5(4) 
+
+T21:
+CPU: P1(8)
+QUEUE: P5(4) 
+
+T22:
+CPU: P1(7)
+QUEUE: P5(4) 
+
+T23:
+CPU: P5(4)
+QUEUE: P1(6) 
+
+T24:
+CPU: P5(3)
+QUEUE: P1(6) 
+
+T25:
+CPU: P5(2)
+QUEUE: P1(6) 
+
+T26:
+CPU: P1(6)
+QUEUE: P5(1) 
+
+T27:
+CPU: P1(5)
+QUEUE: P5(1) 
+
+T28:
+CPU: P1(4)
+QUEUE: P5(1) 
+
+T29:
+CPU: P5(1)
+QUEUE: P1(3) 
+
+T30:
+CPU: P1(3)
+QUEUE: <empty>
+
+T31:
+CPU: P1(2)
+QUEUE: <empty>
+
+T32:
+CPU: P1(1)
+QUEUE: <empty>
+
+Process P1 Wait Time: 18.00
+Process P2 Wait Time: 9.00
+Process P3 Wait Time: 4.00
+Process P4 Wait Time: 5.00
+Process P5 Wait Time: 16.00
+Average Wait Time: 10.40

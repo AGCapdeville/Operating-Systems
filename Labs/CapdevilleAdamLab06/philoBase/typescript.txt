@@ -1,0 +1,951 @@
+Script started on Thu Feb 28 17:33:02 2019
+[?1034hbash-3.2$ exit./philosophers 7 310[1P1 30[C[C[C[C[C[C[C[C[C[C[C[C[5Pcd build/bin/[C[C[C[C[C[C[C[C[C[Cexit[K./philosophers 7 10[C[C[C[C[C[C[C[C[C[Cexit[Kcd build/bin/[C[C[C[C[C[C[C[C[C[C./philosophers 0 31[C[C7 10[1P3[C[C[C[C[C[C[C[C[C[Cexit[K[Kcd build/bin/
+bash-3.2$ ./philosophers 1 3[K2
+Start a dinner for 1 diners
+Philosopher no. 0 sits at the table.
+Philosopher no. 0 gets hungry for the 1 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is eating
+Philosopher no. 0 is eating
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 1
+Philosopher no. 0 gets hungry for the 2 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is eating
+Philosopher no. 0 is eating
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 2
+>>>>>> Philosopher no. 0 finished meal. <<<<<<
+
+Dinner is no more.
+bash-3.2$ ./philosophers 1 2[K[K[K3 2
+Start a dinner for 3 diners
+Philosopher no. 1 sits at the table.
+Philosopher no. 0 sits at the table.
+Philosopher no. 2 sits at the table.
+Philosopher no. 1 gets hungry for the 1 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is eating
+Philosopher no. 1 is eating
+Philosopher no. 0 gets hungry for the 1 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 1
+Philosopher no. 0 gets hungry for the 2 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 2 gets hungry for the 1 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 1
+Philosopher no. 1 gets hungry for the 2 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 2
+>>>>>> Philosopher no. 1 finished meal. <<<<<<
+
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 2
+>>>>>> Philosopher no. 0 finished meal. <<<<<<
+
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 1
+Philosopher no. 2 gets hungry for the 2 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is eating
+Philosopher no. 2 is eating
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 2
+>>>>>> Philosopher no. 2 finished meal. <<<<<<
+
+Dinner is no more.
+bash-3.2$ ./philosophers 3 2[1P 27 2[C[C0
+Start a dinner for 7 diners
+Philosopher no. 0 sits at the table.
+Philosopher no. 2 sits at the table.
+Philosopher no. 1 sits at the table.
+Philosopher no. 4 sits at the table.
+Philosopher no. 3 sits at the table.
+Philosopher no. 5 sits at the table.
+Philosopher no. 6 sits at the table.
+Philosopher no. 5 gets hungry for the 1 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is eating
+Philosopher no. 5 is eating
+Philosopher no. 4 gets hungry for the 1 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 3 gets hungry for the 1 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 1 gets hungry for the 1 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is eating
+Philosopher no. 1 is eating
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 1
+Philosopher no. 4 gets hungry for the 2 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 6 gets hungry for the 1 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 2 gets hungry for the 1 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 0 gets hungry for the 1 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 1
+Philosopher no. 1 gets hungry for the 2 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 1
+Philosopher no. 5 gets hungry for the 2 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 1
+Philosopher no. 3 gets hungry for the 2 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 2
+Philosopher no. 4 gets hungry for the 3 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 1
+Philosopher no. 6 gets hungry for the 2 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 1
+Philosopher no. 2 gets hungry for the 2 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 2
+Philosopher no. 5 gets hungry for the 3 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 1
+Philosopher no. 0 gets hungry for the 2 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 3
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 3
+Philosopher no. 1 finished turn 2
+Philosopher no. 1 gets hungry for the 3 time!
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 4 gets hungry for the 4 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is eating
+Philosopher no. 5 gets hungry for the 4 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 2
+Philosopher no. 6 gets hungry for the 3 time!
+Philosopher no. 4 is eating
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 3 finished turn 2
+Philosopher no. 3 gets hungry for the 3 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 3
+Philosopher no. 1 gets hungry for the 4 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 2
+Philosopher no. 0 gets hungry for the 3 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 2
+Philosopher no. 2 gets hungry for the 3 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 3
+Philosopher no. 0 gets hungry for the 4 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 4
+Philosopher no. 4 gets hungry for the 5 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 3
+Philosopher no. 3 gets hungry for the 4 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 4
+Philosopher no. 5 gets hungry for the 5 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 3
+Philosopher no. 6 gets hungry for the 4 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 4
+Philosopher no. 0 gets hungry for the 5 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 3
+Philosopher no. 2 gets hungry for the 4 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 4
+Philosopher no. 3 gets hungry for the 5 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 5
+Philosopher no. 0 gets hungry for the 6 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 4
+Philosopher no. 1 gets hungry for the 5 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 4
+Philosopher no. 6 gets hungry for the 5 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 5
+Philosopher no. 5 gets hungry for the 6 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 6
+Philosopher no. 0 gets hungry for the 7 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 5
+Philosopher no. 6 gets hungry for the 6 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 5
+Philosopher no. 3 gets hungry for the 6 time!
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 5
+Philosopher no. 4 gets hungry for the 6 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 4
+Philosopher no. 2 gets hungry for the 5 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 5
+Philosopher no. 2 gets hungry for the 6 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 6
+Philosopher no. 4 gets hungry for the 7 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 6
+Philosopher no. 6 gets hungry for the 7 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 5
+Philosopher no. 1 gets hungry for the 6 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 6
+Philosopher no. 3 gets hungry for the 7 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 6
+Philosopher no. 5 gets hungry for the 7 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 6
+Philosopher no. 1 gets hungry for the 7 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 7
+Philosopher no. 0 gets hungry for the 8 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 8
+Philosopher no. 0 gets hungry for the 9 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 7
+Philosopher no. 3 gets hungry for the 8 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 7
+Philosopher no. 4 gets hungry for the 8 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 1 finished turn 7
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 1 gets hungry for the 8 time!
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 6
+Philosopher no. 6 finished turn 7
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 2 gets hungry for the 7 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 1 is waiting
+Philosopher no. 6 gets hungry for the 8 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 9
+Philosopher no. 0 gets hungry for the 10 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 8
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 1 gets hungry for the 9 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 5 finished turn 7
+Philosopher no. 5 gets hungry for the 8 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 7
+Philosopher no. 2 gets hungry for the 8 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 8
+Philosopher no. 5 gets hungry for the 9 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 6 finished turn 8
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 8
+Philosopher no. 6 gets hungry for the 9 time!
+Philosopher no. 5 is eating
+Philosopher no. 5 is eating
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 8
+Philosopher no. 4 gets hungry for the 9 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 3 gets hungry for the 9 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 8
+Philosopher no. 2 gets hungry for the 9 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 10
+Philosopher no. 0 gets hungry for the 11 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 9
+Philosopher no. 3 gets hungry for the 10 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 9
+Philosopher no. 4 gets hungry for the 10 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 9
+Philosopher no. 2 gets hungry for the 10 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 9
+Philosopher no. 5 gets hungry for the 10 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 9
+Philosopher no. 1 gets hungry for the 10 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 11
+Philosopher no. 0 gets hungry for the 12 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 10
+Philosopher no. 2 gets hungry for the 11 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 10
+Philosopher no. 4 gets hungry for the 11 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 9
+Philosopher no. 6 gets hungry for the 10 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 11
+Philosopher no. 2 gets hungry for the 12 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 10
+Philosopher no. 1 gets hungry for the 11 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 11
+Philosopher no. 4 gets hungry for the 12 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 10
+Philosopher no. 3 gets hungry for the 11 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 10
+Philosopher no. 5 gets hungry for the 11 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 10
+Philosopher no. 6 gets hungry for the 11 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 12
+Philosopher no. 4 gets hungry for the 13 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 12
+Philosopher no. 0 gets hungry for the 13 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 11
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 11
+Philosopher no. 3 gets hungry for the 12 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is eating
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 11
+Philosopher no. 6 gets hungry for the 12 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 1 gets hungry for the 12 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 3 is eating
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 12
+Philosopher no. 2 gets hungry for the 13 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 13
+Philosopher no. 4 gets hungry for the 14 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 12
+Philosopher no. 6 gets hungry for the 13 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 12
+Philosopher no. 3 gets hungry for the 13 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 13
+Philosopher no. 2 gets hungry for the 14 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 11
+Philosopher no. 5 gets hungry for the 12 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 14
+Philosopher no. 2 gets hungry for the 15 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 12
+Philosopher no. 5 gets hungry for the 13 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 13
+Philosopher no. 3 gets hungry for the 14 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 13
+Philosopher no. 0 gets hungry for the 14 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 14
+Philosopher no. 4 gets hungry for the 15 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 13
+Philosopher no. 5 gets hungry for the 14 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 12
+Philosopher no. 1 gets hungry for the 13 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 14
+Philosopher no. 3 gets hungry for the 15 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 14
+Philosopher no. 0 gets hungry for the 15 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 13
+Philosopher no. 6 gets hungry for the 14 time!
+Philosopher no. 1 finished turn 13
+Philosopher no. 1 gets hungry for the 14 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 14
+Philosopher no. 5 gets hungry for the 15 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 4 finished turn 15
+Philosopher no. 4 gets hungry for the 16 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 15
+Philosopher no. 0 gets hungry for the 16 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 15
+Philosopher no. 2 gets hungry for the 16 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 15
+Philosopher no. 3 gets hungry for the 16 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 14
+Philosopher no. 1 gets hungry for the 15 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 15
+Philosopher no. 5 gets hungry for the 16 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 15
+Philosopher no. 1 gets hungry for the 16 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 16
+Philosopher no. 2 gets hungry for the 17 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 14
+Philosopher no. 6 gets hungry for the 15 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 16
+Philosopher no. 5 gets hungry for the 17 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 16
+Philosopher no. 0 gets hungry for the 17 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 17
+Philosopher no. 2 gets hungry for the 18 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 16
+Philosopher no. 4 gets hungry for the 17 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 18
+Philosopher no. 2 gets hungry for the 19 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 15
+Philosopher no. 6 gets hungry for the 16 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 17
+Philosopher no. 0 gets hungry for the 18 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 18
+Philosopher no. 0 gets hungry for the 19 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 17
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 16
+Philosopher no. 3 gets hungry for the 17 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 5 gets hungry for the 18 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 19
+Philosopher no. 2 gets hungry for the 20 time!
+Philosopher no. 2 tries to grab chopsticks
+Philosopher no. 2 is waiting
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 16
+Philosopher no. 6 gets hungry for the 17 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is waiting
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 17
+Philosopher no. 3 gets hungry for the 18 time!
+Philosopher no. 4 stopped eating
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 18
+Philosopher no. 5 gets hungry for the 19 time!
+Philosopher no. 1 stopped eating
+Philosopher no. 4 finished turn 17
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 5 is waiting
+Philosopher no. 4 gets hungry for the 18 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 1 finished turn 16
+Philosopher no. 1 gets hungry for the 17 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 3 finished turn 18
+Philosopher no. 3 gets hungry for the 19 time!
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 18
+Philosopher no. 4 gets hungry for the 19 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 0 finished turn 19
+Philosopher no. 0 gets hungry for the 20 time!
+Philosopher no. 0 tries to grab chopsticks
+Philosopher no. 0 is waiting
+Philosopher no. 6 finished turn 17
+Philosopher no. 6 gets hungry for the 18 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 4 is eating
+Philosopher no. 5 stopped eating
+Philosopher no. 5 finished turn 19
+Philosopher no. 5 gets hungry for the 20 time!
+Philosopher no. 5 tries to grab chopsticks
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 5 is waiting
+Philosopher no. 6 is waiting
+Philosopher no. 4 is eating
+Philosopher no. 2 has returned their chopsticks
+Philosopher no. 2 stopped eating
+Philosopher no. 2 finished turn 20
+>>>>>> Philosopher no. 2 finished meal. <<<<<<
+
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 17
+Philosopher no. 1 gets hungry for the 18 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 19
+Philosopher no. 3 gets hungry for the 20 time!
+Philosopher no. 3 tries to grab chopsticks
+Philosopher no. 3 is waiting
+Philosopher no. 0 has returned their chopsticks
+Philosopher no. 0 stopped eating
+Philosopher no. 0 finished turn 20
+>>>>>> Philosopher no. 0 finished meal. <<<<<<
+
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 18
+Philosopher no. 1 gets hungry for the 19 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is eating
+Philosopher no. 1 is eating
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 19
+Philosopher no. 4 gets hungry for the 20 time!
+Philosopher no. 4 tries to grab chopsticks
+Philosopher no. 4 is waiting
+Philosopher no. 3 has returned their chopsticks
+Philosopher no. 3 stopped eating
+Philosopher no. 3 finished turn 20
+>>>>>> Philosopher no. 3 finished meal. <<<<<<
+
+Philosopher no. 5 has returned their chopsticks
+Philosopher no. 5 stopped eating
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 4 has returned their chopsticks
+Philosopher no. 5 finished turn 20
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 18
+Philosopher no. 6 gets hungry for the 19 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is eating
+Philosopher no. 6 is eating
+Philosopher no. 4 stopped eating
+Philosopher no. 4 finished turn 20
+>>>>>> Philosopher no. 4 finished meal. <<<<<<
+
+>>>>>> Philosopher no. 5 finished meal. <<<<<<
+
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 19
+Philosopher no. 1 gets hungry for the 20 time!
+Philosopher no. 1 tries to grab chopsticks
+Philosopher no. 1 is eating
+Philosopher no. 1 is eating
+Philosopher no. 1 has returned their chopsticks
+Philosopher no. 1 stopped eating
+Philosopher no. 1 finished turn 20
+>>>>>> Philosopher no. 1 finished meal. <<<<<<
+
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 19
+Philosopher no. 6 gets hungry for the 20 time!
+Philosopher no. 6 tries to grab chopsticks
+Philosopher no. 6 is eating
+Philosopher no. 6 is eating
+Philosopher no. 6 has returned their chopsticks
+Philosopher no. 6 stopped eating
+Philosopher no. 6 finished turn 20
+>>>>>> Philosopher no. 6 finished meal. <<<<<<
+
+Dinner is no more.
+bash-3.2$ 
+bash-3.2$ exit
+exit
+
+Script done on Thu Feb 28 17:33:59 2019

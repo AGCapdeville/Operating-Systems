@@ -1,0 +1,54 @@
+Script started on 2019-02-14 11:31:44-08:00
+]0;lighthouse@lighthouse-VirtualBox: ~/Desktop/comp362/lab03/monitor[01;32mlighthouse@lighthouse-VirtualBox[00m:[01;34m~/Desktop/comp362/lab03/monitor[00m$ cd build/
+]0;lighthouse@lighthouse-VirtualBox: ~/Desktop/comp362/lab03/monitor/build[01;32mlighthouse@lighthouse-VirtualBox[00m:[01;34m~/Desktop/comp362/lab03/monitor/build[00m$ ./
+CMakeFiles/ monitor     node        
+]0;lighthouse@lighthouse-VirtualBox: ~/Desktop/comp362/lab03/monitor/build[01;32mlighthouse@lighthouse-VirtualBox[00m:[01;34m~/Desktop/comp362/lab03/monitor/build[00m$ ./
+CMakeFiles/ monitor     node        
+]0;lighthouse@lighthouse-VirtualBox: ~/Desktop/comp362/lab03/monitor/build[01;32mlighthouse@lighthouse-VirtualBox[00m:[01;34m~/Desktop/comp362/lab03/monitor/build[00m$ ./monitor [K[K[K[K[K[K[K[K[K[Kcd build/[5Pexitcit[2Pls./build/monitor 200 4 25 50 75 100exit[K[1Pnd./monitor 200 4 25 50 75 100
+
+ Monitor temp: 108.333336 
+
+ Monitor temp: 65.000000 
+
+ Monitor temp: 56.333332 
+
+ Monitor temp: 54.599995 
+
+ Monitor temp: 54.253326 
+
+ STABLE TEMPERATURE DETECTED.
+MONITOR TERMINATING...
+
+ NODE 2 TERMINATING...
+
+ NODE 0 TERMINATING...
+
+ NODE 1 TERMINATING...
+
+ NODE 3 TERMINATING...
+]0;lighthouse@lighthouse-VirtualBox: ~/Desktop/comp362/lab03/monitor/build[01;32mlighthouse@lighthouse-VirtualBox[00m:[01;34m~/Desktop/comp362/lab03/monitor/build[00m$ ./monitor 200 4 25 50 75 100[K[K[K[K[K[K[K[K[K[K[K[K[K[K4 10 20 30 40
+
+ Monitor temp: 83.333336 
+
+ Monitor temp: 50.000000 
+
+ Monitor temp: 43.333332 
+
+ Monitor temp: 42.000000 
+
+ Monitor temp: 41.733334 
+
+ STABLE TEMPERATURE DETECTED.
+MONITOR TERMINATING...
+
+ NODE 2 TERMINATING...
+
+ NODE 1 TERMINATING...
+
+ NODE 0 TERMINATING...
+
+ NODE 3 TERMINATING...
+]0;lighthouse@lighthouse-VirtualBox: ~/Desktop/comp362/lab03/monitor/build[01;32mlighthouse@lighthouse-VirtualBox[00m:[01;34m~/Desktop/comp362/lab03/monitor/build[00m$ ./monitor 200 4 10 20 30 40[Kexit
+exit
+
+Script done on 2019-02-14 11:32:30-08:00

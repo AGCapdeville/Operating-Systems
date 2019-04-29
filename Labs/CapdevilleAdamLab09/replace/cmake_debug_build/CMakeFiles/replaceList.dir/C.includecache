@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab09/replace/lruList.c
+replace.h
+/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab09/replace/replace.h
+
+/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab09/replace/replace.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+time.h
+-
+

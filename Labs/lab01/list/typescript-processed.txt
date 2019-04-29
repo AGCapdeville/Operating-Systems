@@ -1,0 +1,62 @@
+/**
+* Name: Adam Capdeville
+* Lab/task: Lab 1
+* Date: 01/28/19
+**/
+
+
+
+Script started on 2019-01-28 17:39:23-08:00
+lighthouse@lighthouse-VirtualBox:~/Desktop/comp362/lab01/list$ gccm-m64c-gz-o0l-D_DEBUG--Wall list.ccmain.cc-oolist
+lighthouse@lighthouse-VirtualBox:~/Desktop/comp362/lab01/list$ ls
+cmake_build_debug  CMakeLists.txt  core  list  list.c  list.h  main.c  typescript.txt
+lighthouse@lighthouse-VirtualBox:~/Desktop/comp362/lab01/list$ ./list
+a
+b
+c
+d
+e
+DATA ITEM 1: a
+
+DATA ITEM 2: b
+
+DATA ITEM 3: c
+
+DATA ITEM 4: d
+
+DATA ITEM 5: e
+
+f
+g
+h
+i
+j
+DATA ITEM 1: f
+
+DATA ITEM 2: g
+
+DATA ITEM 3: h
+
+DATA ITEM 4: i
+
+DATA ITEM 5: j
+
+k
+l
+m
+n
+o
+DATA ITEM 1: k
+
+DATA ITEM 2: l
+
+DATA ITEM 3: m
+
+DATA ITEM 4: n
+
+DATA ITEM 5: o
+
+lighthouse@lighthouse-VirtualBox:~/Desktop/comp362/lab01/list$ exit
+exit
+
+Script done on 2019-01-28 17:43:45-08:00

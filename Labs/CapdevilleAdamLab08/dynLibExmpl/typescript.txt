@@ -1,0 +1,77 @@
+Script started on Mon Mar 25 21:13:56 2019
+[?1034hbash-3.2$ cd v[Kbu[K[K[K[K[Kls
+CMakeLists.txt		testDyLibExplicitMain	typescript.txt
+giveMeNum.c		testDyLibExplicitMain.c
+libgiveMeNum.so		testDyLibImplicitMain.c
+bash-3.2$ cmake .
+-- The C compiler identification is AppleClang 10.0.0.10001044
+-- The CXX compiler identification is AppleClang 10.0.0.10001044
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/dynLibExmpl
+bash-3.2$ cd bin/[K[K[K[K[K bin/[K[K[K[K[K[K[Kls
+CMakeCache.txt		cmake_install.cmake	testDyLibExplicitMain
+CMakeFiles		compile_commands.json	testDyLibExplicitMain.c
+CMakeLists.txt		giveMeNum.c		testDyLibImplicitMain.c
+Makefile		lib			typescript.txt
+bin			libgiveMeNum.so
+bash-3.2$ cd bin/
+bash-3.2$ make
+make: *** No targets specified and no makefile found.  Stop.
+bash-3.2$ ma[K[Kcd ..
+bash-3.2$ make
+[35m[1mScanning dependencies of target giveMeNum[0m
+[ 16%] [32mBuilding C object CMakeFiles/giveMeNum.dir/giveMeNum.c.o[0m
+[ 33%] [32m[1mLinking C shared library lib/libgiveMeNum.dylib[0m
+[ 33%] Built target giveMeNum
+[35m[1mScanning dependencies of target testDyLibExplicit[0m
+[ 50%] [32mBuilding C object CMakeFiles/testDyLibExplicit.dir/testDyLibExplicitMain.c.o[0m
+[ 66%] [32m[1mLinking C executable bin/testDyLibExplicit[0m
+[ 66%] Built target testDyLibExplicit
+[35m[1mScanning dependencies of target testDyLibImplicit[0m
+[ 83%] [32mBuilding C object CMakeFiles/testDyLibImplicit.dir/testDyLibImplicitMain.c.o[0m
+[100%] [32m[1mLinking C executable bin/testDyLibImplicit[0m
+[100%] Built target testDyLibImplicit
+bash-3.2$ cd bin/
+bash-3.2$ ./testDyLib[Kb
+testDyLibExplicit  testDyLibImplicit  
+bash-3.2$ ./testDyLib
+testDyLibExplicit  testDyLibImplicit  
+bash-3.2$ ./testDyLib[4Pcd bin/./testDyLibExplicit 
+ERR: dlopen(./libgiveMeNum.so, 1): image not found
+bash-3.2$ ./testDyLibExplicit >expli[K[K[K[K[K explicit_out.txt
+ERR: dlopen(./libgiveMeNum.so, 1): image not found
+bash-3.2$ test[K[K[K[K./testDyLibImplicit 
+Give me a number: 
+0
+You gave me : 0
+bash-3.2$ c[K./testDyLibImplicit Explicit > explicit_out.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18PImplicit 1 25 72
+Give me a number: 
+30
+You gave me : 30
+bash-3.2$ ./testDyLibImplicit 1 25 72[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KExplicit 1 25 72
+ERR: dlopen(./libgiveMeNum.so, 1): image not found
+bash-3.2$ ./testDyLibExplicit 1 25 72[K[K[K[K[K[K[K[K
+ERR: dlopen(./libgiveMeNum.so, 1): image not found
+bash-3.2$ ./testDyLib
+testDyLibExplicit  testDyLibImplicit  
+bash-3.2$ ./testDyLib
+testDyLibExplicit  testDyLibImplicit  
+bash-3.2$ ./testDyLib
+testDyLibExplicit  testDyLibImplicit  
+bash-3.2$ ./testDyLib[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Mon Mar 25 21:18:56 2019
