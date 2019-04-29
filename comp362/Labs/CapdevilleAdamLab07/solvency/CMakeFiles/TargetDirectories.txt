@@ -1,3 +1,0 @@
-/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab07/solvency/CMakeFiles/rebuild_cache.dir
-/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab07/solvency/CMakeFiles/edit_cache.dir
-/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab07/solvency/CMakeFiles/solvency.dir

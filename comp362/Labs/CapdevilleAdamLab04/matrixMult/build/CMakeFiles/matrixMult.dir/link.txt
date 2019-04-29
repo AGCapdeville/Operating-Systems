@@ -1,1 +1,0 @@
-/usr/bin/gcc-8  -D_FILE_OFFSET_BITS=64 -g -Wall -Wextra -Wpedantic -g -O0 -D_DEBUG   CMakeFiles/matrixMult.dir/matrixMult.c.o  -o bin/matrixMult -lpthread 

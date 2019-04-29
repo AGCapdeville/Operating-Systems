@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/lighthouse/Desktop/comp362/CapdevilleAdamLab04/matrixMult/build",
-  "command": "/usr/bin/gcc-8    -D_FILE_OFFSET_BITS=64 -g -Wall -Wextra -Wpedantic -g -O0 -D_DEBUG   -std=gnu11 -o CMakeFiles/matrixMult.dir/matrixMult.c.o   -c /home/lighthouse/Desktop/comp362/CapdevilleAdamLab04/matrixMult/matrixMult.c",
-  "file": "/home/lighthouse/Desktop/comp362/CapdevilleAdamLab04/matrixMult/matrixMult.c"
-}
-]

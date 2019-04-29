@@ -1,4 +1,0 @@
-/home/lighthouse/Desktop/comp362/lab03/monitor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lighthouse/Desktop/comp362/lab03/monitor/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/lighthouse/Desktop/comp362/lab03/monitor/cmake-build-debug/CMakeFiles/monitor.dir
-/home/lighthouse/Desktop/comp362/lab03/monitor/cmake-build-debug/CMakeFiles/node.dir

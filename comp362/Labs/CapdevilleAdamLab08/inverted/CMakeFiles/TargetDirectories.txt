@@ -1,3 +1,0 @@
-/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/inverted/CMakeFiles/rebuild_cache.dir
-/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/inverted/CMakeFiles/edit_cache.dir
-/Users/adamcapdeville/Documents/CSUCI/comp362/Labs/CapdevilleAdamLab08/inverted/CMakeFiles/inverted.dir

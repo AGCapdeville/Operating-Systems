@@ -1,3 +1,0 @@
-/home/lighthouse/Desktop/comp362/CapdevilleAdamLab04/matrixMult/build/CMakeFiles/rebuild_cache.dir
-/home/lighthouse/Desktop/comp362/CapdevilleAdamLab04/matrixMult/build/CMakeFiles/matrixMult.dir
-/home/lighthouse/Desktop/comp362/CapdevilleAdamLab04/matrixMult/build/CMakeFiles/edit_cache.dir
