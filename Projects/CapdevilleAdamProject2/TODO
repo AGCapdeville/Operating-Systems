@@ -1,0 +1,16 @@
+
+
+Implement a disk simulator that allows for writing and 
+reading information using logical linear addresses. 
+
+
+The code in disk.zip archive provides: 
+Declaration of the disk geometry
+Prototypes of the functions (To be Implemented)
+
+
+There is also some demonstration code and seed code for testing.
+You must replace that with your own code to test your implementation.
+
+
+There are details of the implementation in the comments accompanying the code.

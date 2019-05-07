@@ -1,0 +1,183 @@
+/**
+ * Name: Adam Capdeville
+ * Project 2 / task: 1
+ * Date: 05/07/2019
+**/
+Script started on Tue May  7 14:47:54 2019
+[?1034hbash-3.2$ ls
+disk		testscript
+bash-3.2$ ./disk 
+Logical sector number: 74
+Physical address: (1, 2, 5)
+	WRITE 
+ INPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq 
+
+	READ 
+OUTPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq 
+
+Input length: 250
+Retrieved length: 250
+inputBuffer == outputBuffer, meaning writing and reading works 
+
+
+Logical sector number: 42
+Physical address: (0, 4, 3)
+	WRITE 
+ INPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[ 
+
+	READ 
+OUTPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[ 
+
+Input length: 50
+Retrieved length: 50
+inputBuffer == outputBuffer, meaning writing and reading works 
+
+
+Logical sector number: 21
+Physical address: (0, 2, 2)
+	WRITE 
+ INPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq(80y/a7wkPy+C@uu$P1i#c^HBQ&v\6Z^$yTIxov{9mYcsuG.)z 
+
+	READ 
+OUTPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq(80y/a7wkPy+C@uu$P1i#c^HBQ&v\6Z^$yTIxov{9mYcsuG.)z 
+
+Input length: 300
+Retrieved length: 300
+inputBuffer == outputBuffer, meaning writing and reading works 
+
+
+Logical sector number: 129
+Physical address: (2, 2, 10)
+	WRITE 
+ INPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq(80y/a7wkPy+C@uu$P1i#c^HBQ&v\6Z^$yTIxov{9mYcsuG.)zEJ0d.LzY2lAQm<j>Y}ZzA7;}bne}5bQUKNnR(^1I@Fet3HZ$iK 
+
+	READ 
+OUTPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq(80y/a7wkPy+C@uu$P1i#c^HBQ&v\6Z^$yTIxov{9mYcsuG.)zEJ0d.LzY2lAQm<j>Y}ZzA7;}bne}5bQUKNnR(^1I@Fet3HZ$iK 
+
+Input length: 350
+Retrieved length: 350
+inputBuffer == outputBuffer, meaning writing and reading works 
+
+
+Logical sector number: 220
+Physical address: (4, 2, 1)
+Input is zero so no need to write & read 
+
+
+Logical sector number: 223
+Physical address: (4, 2, 4)
+	WRITE 
+ INPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj& 
+
+	READ 
+OUTPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj& 
+
+Input length: 100
+Retrieved length: 100
+inputBuffer == outputBuffer, meaning writing and reading works 
+
+
+Logical sector number: 221
+Physical address: (4, 2, 2)
+	WRITE 
+ INPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq 
+
+	READ 
+OUTPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq 
+
+Input length: 250
+Retrieved length: 250
+inputBuffer == outputBuffer, meaning writing and reading works 
+
+
+Logical sector number: 68
+Physical address: (1, 1, 9)
+	WRITE 
+ INPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj& 
+
+	READ 
+OUTPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj& 
+
+Input length: 100
+Retrieved length: 100
+inputBuffer == outputBuffer, meaning writing and reading works 
+
+
+Logical sector number: 49
+Physical address: (0, 4, 10)
+	WRITE 
+ INPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq(80y/a7wkPy+C@uu$P1i#c^HBQ&v\6Z^$yTIxov{9mYcsuG.)z 
+
+	READ 
+OUTPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq(80y/a7wkPy+C@uu$P1i#c^HBQ&v\6Z^$yTIxov{9mYcsuG.)z 
+
+Input length: 300
+Retrieved length: 300
+inputBuffer == outputBuffer, meaning writing and reading works 
+
+
+Logical sector number: 121
+Physical address: (2, 2, 2)
+Input is zero so no need to write & read 
+
+
+Logical sector number: 124
+Physical address: (2, 2, 5)
+	WRITE 
+ INPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL 
+
+	READ 
+OUTPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL 
+
+Input length: 200
+Retrieved length: 200
+inputBuffer == outputBuffer, meaning writing and reading works 
+
+
+Logical sector number: 208
+Physical address: (4, 0, 9)
+Input is zero so no need to write & read 
+
+
+Logical sector number: 21
+Physical address: (0, 2, 2)
+Input is zero so no need to write & read 
+
+
+Logical sector number: 60
+Physical address: (1, 1, 1)
+	WRITE 
+ INPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq(80y/a7wkPy+C@uu$P1i#c^HBQ&v\6Z^$yTIxov{9mYcsuG.)z 
+
+	READ 
+OUTPUT:
+kom"XV*t']nKVXU5cKB&AUSeR]Gtd=u4Huf5-7_I?$; _MZ9n[]m\^N":0|[2LUZ-;/h2c@Yq}Sx'2wI_Ta97_3*]@(%_^.TDmj&{?S0YFis\lk_Q+_P6i*60yX$3b'8:xtm6*)Y)^QQ|ux},FZg]`8 a5 !WF)vGJEt4`lR6LrN1NbZt[)gUOhE#1N3y8pdY_qBBcuL0]>.FiiS+}i+=62Up-}qSt;6'Q<E(Mf`P23y-e/#`ICd;<0 Aq(80y/a7wkPy+C@uu$P1i#c^HBQ&v\6Z^$yTIxov{9mYcsuG.)z 
+
+Input length: 300
+Retrieved length: 300
+inputBuffer == outputBuffer, meaning writing and reading works 
+
+
+bash-3.2$ exit
+exit
+
+Script done on Tue May  7 14:48:19 2019
